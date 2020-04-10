@@ -1,0 +1,224 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+#clear-cache {
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+/*Article grid*/
+
+#article-grid-container {
+    font-size: 13px;
+    text-align: center;
+}
+
+/*Article tags*/
+#article_tags_container{
+    margin-top: 15px
+}
+
+#article_tags_container > p {
+    margin-right: 15px;
+    float: left
+}
+#article_tags_container > p .tags_items {
+    margin-left: 3px;
+}
+
+#article_tags_container > p .close_tag_item {
+     cursor: pointer;
+}
+
+
+#article-grid table thead tr th {
+    text-align: center;
+}
+
+
+table th a.asc:after {
+    content: "\e155"
+}
+
+table th a.desc:after {
+    content: "\e156";
+}
+
+.content-header > .breadcrumb {
+  float: left !important;
+  left: 10px !important;
+  top: 0px !important;
+  width: 100% !important;
+}
+
+thead input {
+    width: 100% !important;
+}
+
+.required{
+    color: red;
+}
+
+#popular .control-group {
+    margin-bottom: 10px;
+}
+
+.expand {
+    cursor: pointer !important;
+}
+
+.article-export .export {
+    margin-bottom: 40px;
+}
+
+.article-export textarea.urls {
+    height: 120px;
+    width: 100%;
+    resize: vertical;
+}
+
+
+.admin-group-form .grid {
+    /*make it 100% width and a minimum of 1000px width*/
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 1000px;
+    padding: 0px;
+    display: table;
+}
+.admin-group-form .grid > ul {
+    display: table-row;
+}
+.admin-group-form .grid > ul > li {
+    display: table-cell;
+    width: 33%;
+    border-bottom:40px solid transparent;
+}
+
+.admin-group-form .allow-actions,
+.admin-group-form ul {
+    list-style: none;
+}
+
+.admin-group-form .allow-actions.highlight  {
+    background: #d3e0f0;
+}

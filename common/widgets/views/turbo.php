@@ -1,0 +1,1 @@
+<figure data-turbo-ad-id="<?= $alias ?>"></figure> 

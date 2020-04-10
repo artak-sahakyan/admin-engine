@@ -1,0 +1,78 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": ["yii2", "framework", "advanced", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "dmstr/yii2-adminlte-asset": "^2.1",
+        "kartik-v/yii2-widget-select2": "dev-master",
+        "kartik-v/yii2-widget-datepicker": "dev-master",
+        "kartik-v/yii2-widget-datetimepicker": "*",
+        "yiisoft/yii2-httpclient": "^2.0",
+        "kartik-v/yii2-editable": "@dev",
+        "simple-projects/yii2-sbadmin": "*",
+        "kartik-v/yii2-date-range": "dev-master",
+        "kartik-v/yii2-grid": "dev-master",
+        "kartik-v/yii2-dynagrid": "dev-master",
+        "kartik-v/yii2-widget-switchinput": "dev-master",
+        "yii2tech/crontab": "^1.0@dev",
+        "yiisoft/yii2-imagine": "~2.1.0",
+        "nixsolutions/yandex-php-library": "dev-master",
+        "unclead/yii2-multiple-input": "~2.0",
+        "antishov/yii2-morrisjs": "@stable",
+        "ksubileau/color-thief-php": "dev-master",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "vkcom/vk-php-sdk": "dev-master",
+        "kartik-v/yii2-mpdf": "dev-master",
+        "phpoffice/phpspreadsheet": "dev-master",
+        "maybeworks/yii2-minify": "*",
+        "yiisoft/yii2-bootstrap": "@dev",
+        "rexxars/html-validator": "~2.0",
+        "yiisoft/yii2-queue": "^2.0@dev",
+        "intervention/image": "^2.4@dev",
+        "hreitsma/yii2-simplemath-captcha": "dev-master",
+        "himiklab/yii2-recaptcha-widget": "*",
+        "agilov/docdocsdk": "dev-master"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "frontend\\": "frontend/",
+            "sovets\\": "../sites/sovets.net",
+            "allslim\\": "../sites/allslim.ru/"
+        }
+    }
+
+}

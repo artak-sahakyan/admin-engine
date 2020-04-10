@@ -1,0 +1,6 @@
+{
+  "name": "engine",
+  "main": "./frontend/packages/index.js",
+  "author": "svteam",
+  "version": "1.0.0"
+}
